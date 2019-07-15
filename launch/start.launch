@@ -1,0 +1,10 @@
+<launch>
+
+	<node	name="route_node"
+		pkg="makeroute"
+		type="route_node"
+		respawn="false"
+		output="screen">
+	</node>
+
+</launch>
